@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> 
+<title>Mega Boutique App</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/innerstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.mobile.css" />
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+    
+ <style type="text/css">
+        #playcontrols {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            #playcontrols #activityindicator, #playcontrols #stopbutton {
+                display: none;
+            }
+
+        #textpositiondiv {
+            margin-top: 100px;
+        }
+    </style>   
+    <!--<script type="text/javascript" charset="utf-8" src="scripts/html5audio.js"></script>-->
+    <!--<script>
+        //function radioON() {
+        //    document.getElementById('radioOn').innerHTML = '<audio width="100%" id="audio" height="32" controls="controls" autoplay="autoplay" src="http://95.154.254.83:10555/;" style="width:100%;"></audio>"';
+        //}
+        $(document).ready(function () {
+            $("#radio").css('display', 'block');
+            //$("#load").css('display', 'block');
+        });
+
+        function radioLista() {
+            $("#radio").css('display', 'block');
+        }
+    </script>-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/respond.min.js"></script>
+</head>
+<body>
+<div class="mainContainer clearfix">
+  <div id="contenidos">
+  	<div class="inner-wrapper" data-role="page">
+        <!-- panel 01 -->
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">
+        	<div style="height:70px; width:17em; line-height:70px"><img src="imgs/logo mega.png" height="60" style="margin-left: 47px;"></div>
+            <ul>
+                <li style="background-color:rgb(85,124,153)"><a href="main.html" title="Inicio">Inicio</a></li>
+                <li><a href="ubicacion.html" title="Ubicación">Ubicación</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="localizacion.html" title="Localización">Ofertas</a></li>
+                <li><a href="radio.html" title="Radio">Radio</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="social.html" title="Social Media">Social Media</a></li>
+                <li><a href="compartir.html" title="Compartir">Compartir</a></li>
+            </ul>
+        </div>
+		<div class="header" data-role="header">
+			<span class="open left"><a href="#panel-01"><img src="imgs/icon menu.png" height="40"></a></span>
+            <span class="title"><img src="imgs/logo mega.png" height="65px"></span>
+			<span  class="open right"><a href="main.html"><img src="imgs/backbtn.png" height="40"></a></span>
+		</div>
+        <div class="content" data-role="content">
+            
+            <div id="megaIMG" class="megaImg">
+            <source src="images/mega.png" />
+        </div>
+        <div id="radio" class="contenedor" style="display:block;">
+            <audio preload="auto" autobuffer controls id="audio">
+                <source src="http://95.154.254.83:10555/;" />
+
+            </audio>
+            <div class="audiocontrols">
+                <h3>Radio Mega</h3>
+                <div class="reproduccion">
+                    <a href="#" class="play"><i class="icon-play" style="background-size: 100%;"></i></a>
+                    <a href="#" class="pause"><i class="icon-pause" style="background-size: 100%;"></i></a>
+                    <a href="#" class="stop"><i class="icon-stop" style="background-size: 100%;"></i></a>
+                </div>
+                <div class="volume">
+                    <a href="#" class="down" style="display:none"><i class="icon-volume-down"></i></a>
+                    <div class="slider"><span class="knob"></span></div>
+                    <a href="#" class="up" style="display:none"><i class="icon-volume-up"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    	<!-- panel 02 -->
+    	
+	</div>
+  </div>
+</div>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+        <script type="text/javascript">
+            (function ($) {
+                var audio = document.getElementById('audio');
+                $('.audiocontrols a.play').on('click', function (e) {
+                    e.preventDefault();
+                    audio.play();
+                });
+                $('.audiocontrols a.pause').on('click', function (e) {
+                    e.preventDefault();
+                    audio.pause();
+                });
+                $('.audiocontrols a.stop').on('click', function (e) {
+                    e.preventDefault();
+                    audio.pause();
+                    audio.currentTime = 0;
+                });
+
+                //------------  Fin controles de audio ------------ //
+
+                //------------ Controlar el Volumen --------------- //
+
+                $('.down').on('click', function (e) {
+                    e.preventDefault();
+                    audio.volume = Math.max(audio.volume - 0.1, 0);
+                });
+                $('.up').on('click', function (e) {
+                    e.preventDefault();
+                    audio.volume = Math.min(audio.volume + 0.1, 1);
+                });
+
+                $(".knob").draggable({
+                    containment: "parent",
+                    drag: function (evt, ui) {
+                        var newVol = Math.round(ui.position.left / $(this).parent().width() * 10) / 10;
+                        audio.volume = newVol;
+                    }
+                });
+
+                $('.slider').on('click', function (e) {
+                    if (!$(e.target).hasClass('slider')) return;
+                    var newVol = Math.round(e.offsetX / $(this).width() * 10) / 10;
+                    audio.volume = newVol;
+                });
+
+                $(audio).on('volumechange', function () {
+                    $('.knob').css('left', Math.min(audio.volume * $('.knob').parent().width(), $('.knob').parent().width() - $('.knob').width()) + 'px');
+                    localStorage.setItem('volume', audio.volume);
+                });
+
+                audio.volume = (localStorage.getItem('volume') || 1);
+
+                $(audio).trigger('volumechange');
+
+            })(jQuery);
+
+        </script>
+
+
+
+        <script type="text/javascript">
+            playButton = document.getElementById('playbutton');
+            stopButton = document.getElementById('stopbutton');
+            activityIndicator = document.getElementById('activityindicator');
+            textPosition = document.getElementById('textposition');
+        </script>
+</body>
+</html>

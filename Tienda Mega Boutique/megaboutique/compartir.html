@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mega Boutique App</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/innerstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.mobile.css" />
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+   
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script type="text/javascript">
+        function redireccionar() {
+            window.location = 'radio.html';
+        }
+
+</script>
+<script src="js/respond.min.js"></script>
+
+</head>
+<body>
+<div class="mainContainer clearfix">
+  <div id="contenidos">
+  	<div class="inner-wrapper" data-role="page">
+        <!-- panel 01 -->
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">
+        	<div style="height:70px; width:17em; line-height:70px"><img src="imgs/logo mega.png" height="60" style="margin-left: 47px;"></div>
+           <ul>
+                <li style="background-color:rgb(85,124,153)"><a href="main.html" title="Inicio">Inicio</a></li>
+                <li><a href="ubicacion.html" title="Ubicación">Ubicación</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="localizacion.html" title="Localización">Ofertas</a></li>
+                <li><a onclick="redireccionar()" title="Radio">Radio</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="social.html" title="Social Media">Social Media</a></li>
+                <li><a href="compartir.html" title="Compartir">Compartir</a></li>
+            </ul>
+        </div>
+		<div class="header" data-role="header">
+			<span class="open left"><a href="#panel-01"><img src="imgs/icon menu.png" height="40"></a></span>
+            <span class="title"><img src="imgs/logo mega.png" ></span>
+			<span  class="open right"><a href="main.html"><img src="imgs/backbtn.png" height="40"></a></span>
+		</div>
+        <div class="content qr" data-role="content">
+            <p class="esca"">Escanea el código y descarga nuestra app.</p>
+            <!--<img  src="imgs/Captura.PNG"/>-->
+           <iframe class="qrcod" src="http://megaboutique.sv/Mega_Movil/qrapp/"  frameborder="0" scrolling="no" style="border:0">
+        </div>
+    	<!-- panel 02 -->
+    	
+	</div>
+  </div>
+</div>
+</body>
+</html>

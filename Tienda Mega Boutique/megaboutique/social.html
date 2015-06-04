@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mega Boutique App</title>
+       <!--<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+        <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+        <!--<meta name="format-detection" content="telephone=no" />-->
+        <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/innerstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.mobile.css" />
+<link rel="stylesheet" href="css/style.css">
+        
+        <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+         <!--<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>-->
+        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>-->
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>--> 
+    <!--<script type=”text/javascript” charset=”utf-8″ src=”phonegap.js”></script>-->
+        <!--<script type=”text/javascript” charset=”utf-8″ src=”plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js”></script>-->
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script type="text/javascript">
+        function redireccionar() {
+            window.location = 'radio.html';
+        }
+
+</script>
+<script src="js/respond.min.js"></script>
+</head>
+<body>
+<div class="mainContainer clearfix">
+  <div id="contenidos">
+  	<div class="inner-wrapper" data-role="page">
+        <!-- panel 01 -->
+        <div class="panel left" data-role="panel" data-position="left" data-display="push" id="panel-01">
+        	<div style="height:70px; width:17em; line-height:70px"><img src="imgs/logo mega.png" height="60" style="margin-left: 47px;"></div>
+            <ul>
+                <li style="background-color:rgb(85,124,153)"><a href="main.html" title="Inicio">Inicio</a></li>
+                <li><a href="ubicacion.html" title="Ubicación">Ubicación</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="localizacion.html" title="Localización">Ofertas</a></li>
+                <li><a onclick="redireccionar()" title="Radio">Radio</a></li>
+                <li style="background-color:rgb(85,124,153)"><a href="social.html" title="Social Media">Social Media</a></li>
+                <li><a href="compartir.html" title="Compartir">Compartir</a></li>
+            </ul>
+        </div>
+		<div class="header" data-role="header">
+			<span class="open left"><a href="#panel-01"><img src="imgs/icon menu.png" height="40"></a></span>
+            <span class="title"><img src="imgs/logo mega.png" height="65px"></span>
+			<span  class="open right"><a href="main.html"><img src="imgs/backbtn.png" height="40"></a></span>
+		</div>
+        <div class="content" data-role="content">
+            <div id="redes" class="redes">
+           
+            <a href="#" onclick="window.open('https://www.facebook.com/megaboutique.elsalvador', '_system', 'location=no');"><div id="fb" class="fb"></div></a> 
+            <a href="#" onclick="window.open('https://twitter.com/MegaboutiqueSV', '_system', 'location=no');"><div id="twitter" class="tw"></div></a>
+            <a href="#" onclick="window.open('http://es.pinterest.com/megaboutiquesv/', '_system', 'location=no');"><div id="instagram" class="insta"></div></a>
+            <a href="#" onclick="window.open('http://instagram.com/megaboutiquesv/', '_system', 'location=no');"><div id="pinterest" class="pinte"></div></a>
+            <!--<a href="78474694">LLamar</a>-->
+        </div>
+        </div>
+    	<!-- panel 02 -->
+    	
+	</div>
+  </div>
+</div>
+</body>
+</html>
