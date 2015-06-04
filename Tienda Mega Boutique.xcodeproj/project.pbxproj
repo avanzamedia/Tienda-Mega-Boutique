@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F88956C1B20921C00C16B22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88956B1B20921C00C16B22 /* main.m */; };
+		0F88956F1B20921C00C16B22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88956E1B20921C00C16B22 /* AppDelegate.m */; };
+		0F8895721B20921C00C16B22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8895711B20921C00C16B22 /* ViewController.m */; };
+		0F8895751B20921C00C16B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8895731B20921C00C16B22 /* Main.storyboard */; };
+		0F8895771B20921C00C16B22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8895761B20921C00C16B22 /* Images.xcassets */; };
+		0F88957A1B20921C00C16B22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8895781B20921C00C16B22 /* LaunchScreen.xib */; };
+		0F8895861B20921C00C16B22 /* Tienda_Mega_BoutiqueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8895851B20921C00C16B22 /* Tienda_Mega_BoutiqueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F8895801B20921C00C16B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F88955E1B20921C00C16B22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F8895651B20921C00C16B22;
+			remoteInfo = "Tienda Mega Boutique";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8895661B20921C00C16B22 /* Tienda Mega Boutique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tienda Mega Boutique.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F88956A1B20921C00C16B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F88956B1B20921C00C16B22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F88956D1B20921C00C16B22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F88956E1B20921C00C16B22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F8895701B20921C00C16B22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F8895711B20921C00C16B22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F8895741B20921C00C16B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F8895761B20921C00C16B22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F8895791B20921C00C16B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F88957F1B20921C00C16B22 /* Tienda Mega BoutiqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tienda Mega BoutiqueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8895841B20921C00C16B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8895851B20921C00C16B22 /* Tienda_Mega_BoutiqueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tienda_Mega_BoutiqueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8895631B20921C00C16B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88957C1B20921C00C16B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F88955D1B20921C00C16B22 = {
+			isa = PBXGroup;
+			children = (
+				0F8895681B20921C00C16B22 /* Tienda Mega Boutique */,
+				0F8895821B20921C00C16B22 /* Tienda Mega BoutiqueTests */,
+				0F8895671B20921C00C16B22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F8895671B20921C00C16B22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F8895661B20921C00C16B22 /* Tienda Mega Boutique.app */,
+				0F88957F1B20921C00C16B22 /* Tienda Mega BoutiqueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F8895681B20921C00C16B22 /* Tienda Mega Boutique */ = {
+			isa = PBXGroup;
+			children = (
+				0F88956D1B20921C00C16B22 /* AppDelegate.h */,
+				0F88956E1B20921C00C16B22 /* AppDelegate.m */,
+				0F8895701B20921C00C16B22 /* ViewController.h */,
+				0F8895711B20921C00C16B22 /* ViewController.m */,
+				0F8895731B20921C00C16B22 /* Main.storyboard */,
+				0F8895761B20921C00C16B22 /* Images.xcassets */,
+				0F8895781B20921C00C16B22 /* LaunchScreen.xib */,
+				0F8895691B20921C00C16B22 /* Supporting Files */,
+			);
+			path = "Tienda Mega Boutique";
+			sourceTree = "<group>";
+		};
+		0F8895691B20921C00C16B22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F88956A1B20921C00C16B22 /* Info.plist */,
+				0F88956B1B20921C00C16B22 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F8895821B20921C00C16B22 /* Tienda Mega BoutiqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F8895851B20921C00C16B22 /* Tienda_Mega_BoutiqueTests.m */,
+				0F8895831B20921C00C16B22 /* Supporting Files */,
+			);
+			path = "Tienda Mega BoutiqueTests";
+			sourceTree = "<group>";
+		};
+		0F8895831B20921C00C16B22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8895841B20921C00C16B22 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F8895651B20921C00C16B22 /* Tienda Mega Boutique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8895891B20921C00C16B22 /* Build configuration list for PBXNativeTarget "Tienda Mega Boutique" */;
+			buildPhases = (
+				0F8895621B20921C00C16B22 /* Sources */,
+				0F8895631B20921C00C16B22 /* Frameworks */,
+				0F8895641B20921C00C16B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tienda Mega Boutique";
+			productName = "Tienda Mega Boutique";
+			productReference = 0F8895661B20921C00C16B22 /* Tienda Mega Boutique.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F88957E1B20921C00C16B22 /* Tienda Mega BoutiqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88958C1B20921C00C16B22 /* Build configuration list for PBXNativeTarget "Tienda Mega BoutiqueTests" */;
+			buildPhases = (
+				0F88957B1B20921C00C16B22 /* Sources */,
+				0F88957C1B20921C00C16B22 /* Frameworks */,
+				0F88957D1B20921C00C16B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F8895811B20921C00C16B22 /* PBXTargetDependency */,
+			);
+			name = "Tienda Mega BoutiqueTests";
+			productName = "Tienda Mega BoutiqueTests";
+			productReference = 0F88957F1B20921C00C16B22 /* Tienda Mega BoutiqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F88955E1B20921C00C16B22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Avanza Media";
+				TargetAttributes = {
+					0F8895651B20921C00C16B22 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					0F88957E1B20921C00C16B22 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0F8895651B20921C00C16B22;
+					};
+				};
+			};
+			buildConfigurationList = 0F8895611B20921C00C16B22 /* Build configuration list for PBXProject "Tienda Mega Boutique" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F88955D1B20921C00C16B22;
+			productRefGroup = 0F8895671B20921C00C16B22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8895651B20921C00C16B22 /* Tienda Mega Boutique */,
+				0F88957E1B20921C00C16B22 /* Tienda Mega BoutiqueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F8895641B20921C00C16B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8895751B20921C00C16B22 /* Main.storyboard in Resources */,
+				0F88957A1B20921C00C16B22 /* LaunchScreen.xib in Resources */,
+				0F8895771B20921C00C16B22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88957D1B20921C00C16B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F8895621B20921C00C16B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8895721B20921C00C16B22 /* ViewController.m in Sources */,
+				0F88956F1B20921C00C16B22 /* AppDelegate.m in Sources */,
+				0F88956C1B20921C00C16B22 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88957B1B20921C00C16B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8895861B20921C00C16B22 /* Tienda_Mega_BoutiqueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F8895811B20921C00C16B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F8895651B20921C00C16B22 /* Tienda Mega Boutique */;
+			targetProxy = 0F8895801B20921C00C16B22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F8895731B20921C00C16B22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F8895741B20921C00C16B22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F8895781B20921C00C16B22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F8895791B20921C00C16B22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F8895871B20921C00C16B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F8895881B20921C00C16B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F88958A1B20921C00C16B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tienda Mega Boutique/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F88958B1B20921C00C16B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tienda Mega Boutique/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F88958D1B20921C00C16B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tienda Mega BoutiqueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda Mega Boutique.app/Tienda Mega Boutique";
+			};
+			name = Debug;
+		};
+		0F88958E1B20921C00C16B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tienda Mega BoutiqueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tienda Mega Boutique.app/Tienda Mega Boutique";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8895611B20921C00C16B22 /* Build configuration list for PBXProject "Tienda Mega Boutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8895871B20921C00C16B22 /* Debug */,
+				0F8895881B20921C00C16B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8895891B20921C00C16B22 /* Build configuration list for PBXNativeTarget "Tienda Mega Boutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88958A1B20921C00C16B22 /* Debug */,
+				0F88958B1B20921C00C16B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F88958C1B20921C00C16B22 /* Build configuration list for PBXNativeTarget "Tienda Mega BoutiqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88958D1B20921C00C16B22 /* Debug */,
+				0F88958E1B20921C00C16B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F88955E1B20921C00C16B22 /* Project object */;
+}
